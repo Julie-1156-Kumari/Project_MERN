@@ -23,7 +23,7 @@ app.use(
   helmet.contentSecurityPolicy({
     directives: {
       defaultSrc: ["'self'"],
-      scriptSrc: ["'self'", "example.com", "scaler.com"], // Allow scripts from 'self' and example.com
+      scriptSrc: ["'self'", "example.com","checkout.stripe.com"], // Allow scripts from 'self' and example.com
       styleSrc: ["'self'", "'unsafe-inline'"], // Allow inline styles (unsafe)
       imgSrc: ["'self'", "data:", "example.com", "image.tmdb.org","https://media.themoviedb.org"], // Allow images from 'self', data URLs, and example.com
       connectSrc: ["'self'", "api.example.com"], // Allow connections to 'self' and api.example.com
