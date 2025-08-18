@@ -164,7 +164,7 @@ const BookShow = () => {
             <Card
               title={
                 <div className="movie-title-details">
-                  <h1>{show.movie.title}</h1>
+                  <h1>{show.movie.movieName}</h1>
                   <p>
                     Theatre: {show.theatre.name}, {show.theatre.address}
                   </p>
