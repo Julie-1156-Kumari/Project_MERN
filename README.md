@@ -15,34 +15,9 @@ Admins and theatre partners can:
 => View bookings and users
 => Only Admins can aprove the theatres for shows
 
-## Foldre Structure
+## Folder Structure
 
-Project_MERN/
-├── client/ # Frontend (React + Redux + Vite)
-│ ├── src/
-│ │ ├── apicalls/ # API call files (users, movies, shows, bookings, theatre)
-│ │ ├── components/ # Reusable components
-│ │ ├── pages/ # All page components (Login, Register, Home, etc.)
-│ │ ├── redux/ # Redux slices and store
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ ├── public/
-│ ├── dist/ # Production build (auto-generated)
-│ ├── package.json
-│ └── vite.config.js
-│
-├── server/ # Backend (Node + Express + MongoDB)
-│ ├── config/ # Database connection (db.js)
-│ ├── middlewares/ # Auth middleware (JWT verification)
-│ ├── models/ # Mongoose models (User, Movie, Theatre, Show, Booking)
-│ ├── routes/ # Express routes (users, movies, shows, theatres, bookings)
-│ ├── utils/ # Email helper + HTML templates
-│ ├── index.js # Entry point
-│ ├── package.json
-│ └── .env # Environment variables (not included in repo)
-│
-├── README.md # Project documentation
-
+    ![FolderStructure Screenshot](./screenshots/folderstructure.png)
 
 ## Installation and Setup
 
