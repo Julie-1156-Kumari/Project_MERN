@@ -1,4 +1,4 @@
-# Movie Ticket Booking System  ([Live Demo](https://bms-shows.onrender.com/login))
+# Movie/Show Ticket Booking System  ([Live Demo](https://bms-shows.onrender.com/login))
 
 ## Project Overview
 
