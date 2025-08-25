@@ -47,10 +47,10 @@ npm install
 ### 3. Setup Environment Variables
 Inside server/.env add: (accordingly use your details as per requirements)
      
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-stripe_key=your_stripe_secret_key
-SENDGRID_API_KEY=your_sendgrid_api_key
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_secret_key
+- stripe_key=your_stripe_secret_key
+- SENDGRID_API_KEY=your_sendgrid_api_key
 
 ### 4. Run the project:
 - Start Backend:
